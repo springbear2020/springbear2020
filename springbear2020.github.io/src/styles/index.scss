@@ -1,0 +1,60 @@
+@use "@/styles/variables";
+
+body {
+  margin: 0;
+  background-color: variables.$bg-color;
+}
+
+.text-ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.card-badge:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  width: 32px;
+  height: 32px;
+  background-image: linear-gradient(variables.$bg-white, variables.$theme-color);
+  transform: translate(50%, -50%) rotate(45deg);
+}
+
+.tips-line {
+  background-color: variables.$bg-white;
+  border-radius: 4px;
+  border: 1px solid variables.$theme-color;
+  margin: 16px 0;
+  color: variables.$theme-color;
+  padding: 16px;
+}
+
+.card-list-box {
+  display: flex;
+  flex-wrap: wrap;
+
+  .card-item-box {
+    width: 360px;
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 4px;
+  }
+}
+
+.header-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: variables.$bg-white;
+  height: 60px;
+  padding: 0 16px;
+
+  .logo-image {
+    height: 48px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 16px;
+  }
+}

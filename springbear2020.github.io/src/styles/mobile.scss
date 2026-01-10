@@ -1,0 +1,33 @@
+/* one card column */
+@media screen and (max-width: 720px) {
+  .container {
+    width: 360px;
+  }
+}
+
+/* two card columns */
+@media screen and (min-width: 724px) and (max-width: 1088px) {
+  .container {
+    width: 724px;
+
+    .card-list-box {
+      .card-item-box:nth-child(odd) {
+        margin-right: 4px;
+      }
+    }
+  }
+}
+
+/* three card columns */
+@media screen and (min-width: 1088px) {
+  .container {
+    width: 1088px;
+
+    .card-list-box {
+      .card-item-box:nth-child(3n+2) {
+        margin-left: 4px;
+        margin-right: 4px;
+      }
+    }
+  }
+}

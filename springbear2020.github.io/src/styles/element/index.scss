@@ -1,0 +1,11 @@
+@use "@/styles/variables";
+
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+  $colors: (
+    'primary': (
+      'base': variables.$theme-color,
+    ),
+  ),
+);
+
+@use "element-plus/theme-chalk/src/index.scss" as *;
