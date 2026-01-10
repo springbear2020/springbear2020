@@ -1,0 +1,506 @@
+/* region basis */
+
+.left-fix {
+    float: left;
+}
+
+.right-fix {
+    float: right;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.container {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+/* endregion */
+
+/* region top-bar */
+
+.top-bar {
+    height: 30px;
+    background-color: #ececec;
+}
+
+.top-bar .welcome {
+    height: 30px;
+    line-height: 30px;
+    /* 去除元素因代码换行而产生的留白 */
+    font-size: 0;
+}
+
+.top-bar .welcome span,
+.welcome a {
+    font-size: 12px;
+}
+
+.top-bar .welcome .words {
+    margin-right: 28px;
+}
+
+.top-bar .welcome .login {
+    padding-right: 10px;
+    border-right: 1px solid #666666;
+}
+
+.top-bar .welcome .register {
+    margin-left: 10px;
+}
+
+.top-bar-nav .nav-list {
+    height: 30px;
+    line-height: 30px;
+}
+
+.top-bar-nav .nav-list li {
+    float: left;
+}
+
+.top-bar-nav .nav-list li>a {
+    padding: 0 15px;
+    border-right: 1px solid #666666;
+}
+
+.top-bar-nav .nav-list li:first-child a {
+    padding-left: 0;
+}
+
+.top-bar-nav .nav-list li:last-child a {
+    padding-right: 0;
+    border: 0;
+}
+
+/* endregion */
+
+/* region page-header */
+
+.page-header {
+    height: 120px;
+}
+
+.page-header .search form {
+    margin-top: 42px;
+    font-size: 0;
+}
+
+.page-header .search input {
+    width: 508px;
+    height: 34px;
+    border: 1px solid #dd302d;
+}
+
+.page-header .search button {
+    width: 80px;
+    height: 36px;
+    background-color: #dd302d;
+    /* 去除行内块的幽灵空白 */
+    vertical-align: top;
+    background-image: url("../img/serch_icon.png");
+    background-repeat: no-repeat;
+    background-position: 28px 6px;
+}
+
+/* endregion */
+
+/* region main-nav */
+
+.main-nav {
+    height: 48px;
+    border-bottom: 1px solid #dd302d;
+}
+
+.main-nav .all-category {
+    width: 190px;
+    height: 48px;
+    line-height: 48px;
+    background-color: #dd302d;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+.main-nav .nav-list {
+    height: 48px;
+    line-height: 48px;
+}
+
+.main-nav .nav-list li {
+    float: left;
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+/* endregion */
+
+/* region main-content */
+
+.main-content {
+    margin-top: 10px;
+}
+
+.main-content .left-nav {
+    width: 190px;
+    height: 458px;
+    background-color: #f4f4f4;
+    /* 孙绝爷相 */
+    position: relative;
+}
+
+.main-content .left-nav li {
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+    padding-left: 16px;
+}
+
+.main-content .left-nav li:hover {
+    background-color: #dd302d;
+}
+
+.main-content .left-nav li:hover>a {
+    color: white;
+}
+
+.main-content .second-menu {
+    width: 680px;
+    height: 458px;
+    background-color: #f4f4f4;
+    top: 0;
+    left: 190px;
+    position: absolute;
+    padding-left: 20px;
+    display: none;
+}
+
+.main-content .left-nav li:hover .second-menu {
+    display: block;
+}
+
+.main-content .second-menu dl {
+    height: 36px;
+    line-height: 36px;
+}
+
+.main-content .second-menu dl:first-child {
+    margin-top: 10px;
+}
+
+.main-content .second-menu dt {
+    float: left;
+    width: 70px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.main-content .second-menu dd {
+    float: left;
+}
+
+.main-content .second-menu dd a {
+    padding: 0 10px;
+    border-left: 1px solid #666666;
+}
+
+.main-content .middle-banner {
+    width: 690px;
+    height: 458px;
+    margin: 0 10px;
+}
+
+.main-content .right-other {
+    width: 290px;
+    height: 458px;
+}
+
+.main-content .message {
+    width: 260px;
+    height: 156px;
+    border: 1px solid #d9d9d9;
+    padding: 0 14px;
+}
+
+.main-content .message-title {
+    height: 38px;
+    line-height: 38px;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+.main-content .message-title span {
+    font-size: 14px;
+}
+
+.main-content .message-list li {
+    height: 26px;
+    line-height: 26px;
+}
+
+.main-content .icon-link {
+    width: 290px;
+    height: 290px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.main-content .icon-row:first-child {
+    margin-top: 16px;
+}
+
+.main-content .icon-row:nth-child(2) {
+    margin: 17px 0;
+}
+
+.main-content .icon-link ul li {
+    width: 48px;
+    height: 70px;
+    float: left;
+    margin: 0 11px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.main-content .icon-row li:first-child {
+    margin-left: 16px;
+}
+
+.main-content .icon-link .icon {
+    width: 48px;
+    height: 48px;
+    background-image: url("../img/精灵图-侧边功能.png");
+}
+
+.main-content .icon-link .icon-row:nth-child(1) li:nth-child(1) .icon {
+    background-position: 0 0;
+}
+
+.main-content .icon-link .icon-row:nth-child(1) li:nth-child(2) .icon {
+    background-position: -48px 0;
+}
+
+.main-content .icon-link .icon-row:nth-child(1) li:nth-child(3) .icon {
+    background-position: -96px 0;
+}
+
+.main-content .icon-link .icon-row:nth-child(1) li:nth-child(4) .icon {
+    background-position: -144px 0;
+}
+
+.main-content .icon-link .icon-row:nth-child(2) li:nth-child(1) .icon {
+    background-position: 0 -48px;
+}
+
+.main-content .icon-link .icon-row:nth-child(2) li:nth-child(2) .icon {
+    background-position: -48px -48px;
+}
+
+.main-content .icon-link .icon-row:nth-child(2) li:nth-child(3) .icon {
+    background-position: -96px -48px;
+}
+
+.main-content .icon-link .icon-row:nth-child(2) li:nth-child(4) .icon {
+    background-position: -144px -48px;
+}
+
+.main-content .icon-link .icon-row:nth-child(3) li:nth-child(1) .icon {
+    background-position: 0 -96px;
+}
+
+.main-content .icon-link .icon-row:nth-child(3) li:nth-child(2) .icon {
+    background-position: -48px -96px;
+}
+
+.main-content .icon-link .icon-row:nth-child(3) li:nth-child(3) .icon {
+    background-position: -96px -96px;
+}
+
+.main-content .icon-link .icon-row:nth-child(3) li:nth-child(4) .icon {
+    background-position: -144px -96px;
+}
+
+/* endregion */
+
+/* region seckill */
+
+.seckill {
+    margin-top: 10px;
+}
+
+.seckill .container img {
+    float: left;
+    margin-right: 11px;
+    cursor: pointer;
+}
+
+.seckill .container img:last-child {
+    margin-right: 0;
+}
+
+/* endregion */
+
+/* region floor */
+
+.floor {
+    margin-top: 48px;
+}
+
+.floor .nav {
+    height: 30px;
+    line-height: 30px;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #dd302d;
+}
+
+.floor .nav-name {
+    font-size: 20px;
+}
+
+.floor .nav-list li {
+    float: left;
+    font-size: 14px;
+}
+
+.floor .nav-list li a {
+    padding: 0 10px;
+    border-right: 1px solid #666666;
+}
+
+.floor .nav-list li:first-child a {
+    padding-left: 0;
+}
+
+.floor .nav-list li:last-child a {
+    padding-right: 0;
+    border: 0;
+}
+
+.floor .column1 {
+    width: 190px;
+    height: 392px;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.floor .column1 .items {
+    margin-bottom: 30px;
+}
+
+.floor .column1 .items li {
+    width: 90px;
+    height: 22px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #d9d9d9;
+    font-size: 16px;
+    text-align: center;
+}
+
+.floor .column1 .items li:nth-child(2n -1) {
+    float: left;
+}
+
+.floor .column1 .items li:nth-child(2n) {
+    float: right;
+}
+
+.floor .column1 .items li:nth-child(3),
+.floor .column1 .items li:nth-child(4) {
+    margin: 15px 0;
+}
+
+.floor .column2 {
+    width: 340px;
+    height: 432px;
+}
+
+.floor .column3,
+.floor .column4,
+.floor .column5 {
+    width: 206px;
+    height: 432px;
+}
+
+.floor .column3,
+.floor .column4 {
+    border-right: 1px solid #e2e2e2;
+}
+
+.floor .column3 img,
+.floor .column4 img,
+.floor .column5 img {
+    border-bottom: 1px solid #e2e2e2;
+}
+
+/* endregion */
+
+/* region footer */
+
+.footer {
+    margin-top: 48px;
+    height: 440px;
+    background-color: #483e3e;
+}
+
+.footer .top-links .links-list {
+    float: left;
+    width: 190px;
+    height: 176px;
+    margin-top: 48px;
+    margin-right: 10px;
+}
+
+.footer .top-links .links-list:last-child {
+    margin-right: 0;
+}
+
+.footer .links-list a {
+    font-size: 14px;
+}
+
+.footer .divider {
+    margin-top: 22px;
+    height: 1px;
+    background-color: #584d4d;
+}
+
+.footer .bottom-links {
+    text-align: center;
+    margin-top: 47px;
+}
+
+.footer .bottom-links .links-list {
+    display: inline-block;
+}
+
+.footer .bottom-links .links-list li {
+    float: left;
+}
+
+.footer .bottom-links .links-list li a {
+    padding: 0 26px;
+    border-right: 1px solid white;
+    color: white;
+}
+
+.footer .bottom-links .links-list li a:hover {
+    color: #dd302d;
+}
+
+.footer .bottom-links .links-list li:first-child a {
+    padding-left: 0;
+}
+
+.footer .bottom-links .links-list li:last-child a {
+    padding-right: 0;
+    border: 0;
+}
+
+.copyright {
+    margin-top: 10px;
+    color: white;
+}
+
+/* endregion */
