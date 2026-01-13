@@ -8,15 +8,15 @@
 ?>
 
 <article class="card shadow-sm border-0 mb-4 bg-white" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-    <div class="card-body book-card">
-        <div class="book-cover">
+    <div class="card-body mine-card">
+        <div class="mine-cover">
             <img src="<?php echo esc_url($cover); ?>" alt="<?php the_title(); ?>" class="rounded">
         </div>
 
-        <div class="book-content">
+        <div class="mine-body">
             <h3 class="my-3"><?php the_title(); ?></h3>
 
-            <div class="book-meta text-muted small">
+            <div class="body-meta text-muted small">
                 <span class="meta-item">
                     <i class="fa fa-pencil-square-o"></i> <?php echo esc_html($author); ?>
                 </span>

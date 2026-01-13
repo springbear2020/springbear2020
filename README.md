@@ -5,8 +5,8 @@
 ## :bear: Me
 
 - :smile: Hello there, I’m `Spring-_-Bear`, a name that captures my lively spirit like the spring and unwavering determination like a bear.
-- :computer: I specialize in backend development and am skilled in frontend. My preferred languages include `C++`, `Go`, `Java`, and `Vue`.
-- :book: Beyond programming, I’m an avid reader, a poetry enthusiast, and a badminton player. Explore more info about me [here](https://springbear2020.github.io/).
+- :computer: I specialize in backend development and am skilled in frontend. My preferred languages include `Go`, `Java`, `C++`, and `Vue`.
+- :book: Beyond programming, I’m an avid reader, a poetry enthusiast, and a badminton player. Explore more info about me [here](https://springbear.cn/).
 
 ## :chart_with_upwards_trend: Stats
 

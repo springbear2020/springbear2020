@@ -5,87 +5,102 @@
     font-style: italic;
 }
 
+.blockquote {
+    background: #f8f9fa;
+}
+
 #books-list article:last-child {
     margin-bottom: 0 !important;
 }
 
-.book-card {
+#projects-list article:last-child {
+    margin-bottom: 0 !important;
+}
+
+.mine-card {
     display: flex;
     flex-direction: column;
 }
 
-.book-cover img {
+.mine-cover img {
     width: 100%;
     max-width: 128px;
     margin: 0 auto;
     display: block;
 }
 
-.book-content h3 {
+.mine-body h3 {
     text-align: center;
 }
 
-.book-meta {
+.mine-body .body-meta {
     display: flex;
     flex-direction: column;
     gap: 0.25rem;
 }
 
-.book-meta .meta-item {
+.mine-body .body-meta .meta-item {
     display: block;
     text-align: center;
 }
 
-.blockquote {
-    background: #f8f9fa;
+.mine-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mine-link .link-icon {
+    width: 20px;
+    height: 20px;
 }
 
 @media (min-width: 768px) {
-    .book-card {
+    .mine-card {
         flex-direction: row;
         align-items: flex-start;
     }
 
-    .book-cover {
+    .mine-cover {
         flex: 0 0 200px;
     }
 
-    .book-cover img {
+    .mine-cover img {
         max-width: 200px;
     }
 
-    .book-content {
+    .mine-body {
         flex: 1;
         padding-left: 1.5rem;
     }
 
-    .book-content h3 {
+    .mine-body h3 {
         text-align: left;
     }
 
-    .book-meta {
+    .mine-body .body-meta {
         flex-direction: row;
         flex-wrap: wrap;
     }
 
-    .book-meta .meta-item::after {
+    .mine-body .body-meta .meta-item::after {
         content: "|";
         color: #8898aa;
         margin: 0 0.5rem;
     }
 
-    .book-meta .meta-item:last-child::after {
+    .mine-body .body-meta .meta-item:last-child::after {
         content: "";
         margin: 0;
     }
 }
 
 @media (min-width: 992px) {
-    .book-cover {
+    .mine-cover {
         flex: 0 0 180px;
     }
 
-    .book-cover img {
+    .mine-cover img {
         max-width: 180px;
     }
 }
